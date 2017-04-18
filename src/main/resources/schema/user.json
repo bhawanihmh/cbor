@@ -1,0 +1,24 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	
+	"javaInterfaces":[  
+	 	"java.io.Serializable"
+	],
+	
+	"properties": {
+		"name": {
+			"type": "string"
+		},
+		"salary": {
+			"type": "integer"
+		},
+		"address": {
+			"type": "string"
+		}
+	},
+	
+	"required": [
+		"name","address"
+	]
+}
